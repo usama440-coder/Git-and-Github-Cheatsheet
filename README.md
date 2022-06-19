@@ -109,6 +109,31 @@ Pulling all the changes from romote to local repo (combination of fetch and merg
 ```
 git pull origin
 ```
+If made any changes in local repo, check status first
+Commit the changes
+```
+git commit -a -m 'updating'
+```
+Push to the origin
+```
+git push origin
+```
+If added a new branch to local repo, check the list
+```
+git branch -a
+```
+Now checkout to the new branch
+```
+git checkout <branch_name>
+```
+Check if its all up to date
+```
+git pull
+```
+Push a new branch to Github
+```
+git push origin <branch_name>
+```
 ### Authors
 
 - [@usamashaukat](https://github.com/usama440-coder)
