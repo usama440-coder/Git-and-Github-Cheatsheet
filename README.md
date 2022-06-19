@@ -76,7 +76,39 @@ Deleting a branch
 git branch -d <branch_name> 
 ```
 ---
-
+### Github Commands
+After creatting a repo, copy HTTPS link
+To add a remote repository,
+```
+git remote add origin <copied_link>
+```
+Push master branch to remote URL
+```
+git push --set-upstream origin master
+```
+or
+```
+git push -u origin master
+```
+Fetch updates to see what has changed
+```
+git fetch origin
+```
+If recent changes, on branch behind, to better verify
+```
+git log origin/master
+```
+```
+git diff origin/master
+```
+Now if no difference, merge
+```
+git merge origin/master
+```
+Pulling all the changes from romote to local repo (combination of fetch and merge)
+```
+git pull origin
+```
 ### Authors
 
 - [@usamashaukat](https://github.com/usama440-coder)
