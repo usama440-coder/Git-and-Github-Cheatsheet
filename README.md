@@ -75,6 +75,7 @@ Deleting a branch
 ```
 git branch -d <branch_name> 
 ```
+---
 
 ### Authors
 
