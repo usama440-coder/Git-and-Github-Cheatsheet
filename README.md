@@ -134,6 +134,31 @@ Push a new branch to Github
 ```
 git push origin <branch_name>
 ```
+To clone a project:
+```
+git clone <url-of-project>
+```
+Check if you have a full copy
+```
+git log
+```
+We have full copy, origin is not allowed to make changes to
+See the remote configuration
+```
+git remote -v
+```
+Rename the origin
+```
+git remote rename origin upstream
+git remove -v
+```
+After fetching, add origin to remote
+```
+git remote add origin <url_of_project>
+```
+Now you have 2 origins
+* origin (read-write)
+* upstream (read)
 ### Authors
 
 - [@usamashaukat](https://github.com/usama440-coder)
