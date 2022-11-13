@@ -22,6 +22,14 @@ Initialize Git:
 ```
 git init
 ```
+Check for all files
+```
+git ls -a
+```
+Remove git
+```
+rm -rf .git
+```
 Check git status:
 ```
 git status
