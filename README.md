@@ -34,6 +34,7 @@ Check git status:
 ```
 git status
 ```
+Suppose you have ```file1``` and ```file2``` in a working directory. You stage both files and then commit. After that you have deleted for some reason ```file2``` but it is still in the staging area. You must have to add that file to remove it from staging.
 Stage the files
 ```
 git add index.html
