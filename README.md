@@ -65,6 +65,7 @@ If a file is already in working directory and committed and then you add it in .
 ```
 git rm --cached -r bin/
 ```
+
 Get status of repo.
 
 | Flag  | Meaning |
