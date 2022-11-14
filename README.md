@@ -47,6 +47,24 @@ Commit
 ```
 git commit -m "some message"
 ```
+Skipping the staging area
+```
+git commit -a -m 'message'
+```
+To delete file in project and in staging area at the same time:
+```
+git rm file2.txt
+```
+Add a .gitignore file
+```
+echo logs/ > .gitignore
+git add .gitignore
+git commit -m 'adding an ignore file'
+```
+If a file is already in working directory and committed and then you add it in .gitignore, it will show a message to be committed each time you change in that file. That should not happen. So, we want that file in working directory and in .gitignore but not in staging area(that file is important to us to make the code run)
+```
+git rm --cached -r bin/
+```
 Get status of repo.
 
 | Flag  | Meaning |
